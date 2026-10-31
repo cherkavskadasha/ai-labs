@@ -1,0 +1,15 @@
+{
+  "vocab_size": 5000,
+  "variant_1": {
+    "embed_dim": 64,
+    "context_len": 64,
+    "n_heads": 2,
+    "n_layers": 2
+  },
+  "variant_2": {
+    "embed_dim": 64,
+    "context_len": 64,
+    "n_heads": 2,
+    "n_layers": 4
+  }
+}

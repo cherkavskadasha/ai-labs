@@ -1,0 +1,9 @@
+﻿section,model,setting,val_loss,accuracy,inference_seconds,parameters_millions
+MiniGPT,minigpt_v1,"layers=2, context=64, embed=64",5.690924906730652,,,0.748808
+MiniGPT,minigpt_v2,"layers=4, context=64, embed=64",5.632244491577149,,,0.848392
+Zero-shot model comparison,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,candidate_labels=спорт/технології/кулінарія,,0.8666666666666667,1.409492144000069,278.811651
+Zero-shot model comparison,joeddav/xlm-roberta-large-xnli,candidate_labels=спорт/технології/кулінарія,,0.8666666666666667,1.1393379040000582,559.893507
+Zero-shot template experiment,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,Базовий англійський: This example is {}.,,0.8666666666666667,,
+Zero-shot template experiment,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,Альтернатива англійською: The main topic is {}.,,0.8666666666666667,,
+Zero-shot template experiment,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,Український базовий: Цей текст стосується теми {}.,,1.0,,
+Zero-shot template experiment,MoritzLaurer/mDeBERTa-v3-base-mnli-xnli,Український уточнений: Головна тема цього тексту — {}.,,1.0,,
